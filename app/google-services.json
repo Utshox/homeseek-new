@@ -1,0 +1,52 @@
+{
+  "project_info": {
+    "project_number": "648175722745",
+    "firebase_url": "https://goestate-ddcef.firebaseio.com",
+    "project_id": "goestate-ddcef",
+    "storage_bucket": "goestate-ddcef.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:648175722745:android:f9fc44ac2690c4c0",
+        "android_client_info": {
+          "package_name": "com.otacodes.goestate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "648175722745-o8sag40267tvjpsd5h79htr6n5v5fvve.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.otacodes.goestate",
+            "certificate_hash": "a55886121c75ba12149f2d740ad3ce1c8c26600e"
+          }
+        },
+        {
+          "client_id": "648175722745-jt9mmm66302s6bj8qbasflsat1hbae1r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.otacodes.goestate",
+            "certificate_hash": "20efd5c424e6a19f5f5c6f93e239a36c9e70f6de"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBuBn4MlxDmmlJmFyQX_o_sJsf_GIhY8Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "648175722745-851rsuspejakh8o4sf5par3tv024jto0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
