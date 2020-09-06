@@ -55,7 +55,7 @@ public class PicklocationActivity extends AppCompatActivity
 
     public static final String LOCATION_NAME = "LocationName";
     public static final String LOCATION_LATLNG = "LocationLatLng";
-
+//
 
     AutoCompleteTextView autoCompleteTextView;
 
