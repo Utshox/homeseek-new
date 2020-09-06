@@ -6,13 +6,10 @@ import com.google.android.gms.maps.model.LatLngBounds;
 import java.text.SimpleDateFormat;
 import java.util.Locale;
 
-/**
- * Created by otacodes on 10/23/2018.
- */
 
 public class Constants {
 
-    public static String BASEURL = "http://goestate.otacodes.site";
+    public static String BASEURL = "https://amibachelor.com";
     public static String CONNECTION = BASEURL +"/api.php?";
 
     public static String SIGNUP = CONNECTION + "signup";
@@ -70,10 +67,11 @@ public class Constants {
             new SimpleDateFormat("dd-MM-yyyy HH:mm:ssZZ", Locale.ENGLISH);
 
 
-        public static final String FCM_KEY = "AIzaSyCsCK6qCcR11IEt1hDjKnHSEs80ikk9PQg";
+        public static final String FCM_KEY = "AIzaSyB3fRZgAkMJgOCvANhsTZeE5nZOBBLhpUQ";
         public static final LatLngBounds BOUNDS = new LatLngBounds(
                 new LatLng(-7.216001, 0), // southwest
                 new LatLng(0, 107.903316)); // northeast
 
-
+//23.7509735
+//        90.373582
 }

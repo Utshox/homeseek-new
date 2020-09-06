@@ -1,8 +1,8 @@
 ﻿<resources>
     <string name="app_name">GoEstate</string>
 
-    <string name="facebook_app_id">---fbid---</string>
-    <string name="fb_login_protocol_scheme">fb---fbid---</string>
+    <string name="facebook_app_id">430515867918979</string>
+    <string name="fb_login_protocol_scheme">fb430515867918979</string>
     <string name="admob_publiserID">ca-app-pub-4218354118806397~7122245736</string>
     <string name="admob_interstitial">ca-app-pub-3940256099942544/1033173712</string>
     <string name="admob_bannerID">ca-app-pub-3940256099942544/6300978111</string>

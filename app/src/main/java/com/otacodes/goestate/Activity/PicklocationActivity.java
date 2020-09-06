@@ -43,9 +43,7 @@ import java.util.Locale;
 import static com.otacodes.goestate.Constants.Constants.BOUNDS;
 
 
-/**
- * Created by otacodes on 12/3/2019.
- */
+
 
 public class PicklocationActivity extends AppCompatActivity
         implements OnMapReadyCallback, GoogleApiClient.ConnectionCallbacks, GoogleApiClient.OnConnectionFailedListener {
