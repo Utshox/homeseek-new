@@ -17,7 +17,7 @@ import com.github.ornolfr.ratingview.RatingView;
 import com.otacodes.goestate.Activity.PropertyDetailActivity;
 import com.otacodes.goestate.Models.PropertyModels;
 import com.otacodes.goestate.R;
-import com.otacodes.goestate.Utils.BannerAds;
+//import com.otacodes.goestate.Utils.BannerAds;
 import com.otacodes.goestate.Utils.DatabaseHelper;
 import com.squareup.picasso.MemoryPolicy;
 import com.squareup.picasso.Picasso;
@@ -104,7 +104,7 @@ public class ListItem extends RecyclerView.Adapter<ListItem.ItemRowHolder> {
         holder.rootlayout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                BannerAds.ShowInterstitialAds(mContext);
+//                BannerAds.ShowInterstitialAds(mContext);
                 Intent intent = new Intent(mContext, PropertyDetailActivity.class);
                 intent.putExtra("Id", singleItem.getPropid());
                 mContext.startActivity(intent);

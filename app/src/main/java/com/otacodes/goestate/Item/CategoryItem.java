@@ -14,7 +14,7 @@ import android.widget.TextView;
 import com.otacodes.goestate.Activity.AllPropByCatActivity;
 import com.otacodes.goestate.Models.CategoryModels;
 import com.otacodes.goestate.R;
-import com.otacodes.goestate.Utils.BannerAds;
+//import com.otacodes.goestate.Utils.BannerAds;
 import com.squareup.picasso.MemoryPolicy;
 import com.squareup.picasso.Picasso;
 
@@ -81,7 +81,7 @@ public class CategoryItem extends RecyclerView.Adapter<CategoryItem.ItemRowHolde
         holder.background.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                BannerAds.ShowInterstitialAds(mContext);
+//                BannerAds.ShowInterstitialAds(mContext);
                 Intent intent = new Intent(mContext, AllPropByCatActivity.class);
                 intent.putExtra("Id", singleItem.getCategoryId());
                 mContext.startActivity(intent);

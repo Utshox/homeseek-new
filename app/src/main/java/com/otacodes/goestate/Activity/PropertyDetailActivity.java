@@ -43,7 +43,7 @@ import com.otacodes.goestate.Item.AmenitiesItem;
 import com.otacodes.goestate.Item.GalleryItem;
 import com.otacodes.goestate.Models.PropertyModels;
 import com.otacodes.goestate.R;
-import com.otacodes.goestate.Utils.BannerAds;
+//import com.otacodes.goestate.Utils.BannerAds;
 import com.otacodes.goestate.Utils.DatabaseHelper;
 import com.otacodes.goestate.Utils.NetworkUtils;
 import com.squareup.picasso.MemoryPolicy;
@@ -89,7 +89,7 @@ public class PropertyDetailActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_propertydetail);
         LinearLayout mAdViewLayout = findViewById(R.id.adView);
-        BannerAds.ShowBannerAds(getApplicationContext(), mAdViewLayout);
+//        BannerAds.ShowBannerAds(getApplicationContext(), mAdViewLayout);
         Intent i = getIntent();
         Id = i.getStringExtra("Id");
         rating_sheet = findViewById(R.id.rating_sheet);

@@ -24,43 +24,30 @@
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            app:contentInsetLeft="0dp"
-            android:elevation="5dp"
-            app:contentInsetStart="0dp"
             android:layout_alignParentTop="true"
-            android:background="@color/colorPrimary">
+            android:layout_weight="1"
+            android:background="#B500FF38"
+            android:elevation="5dp"
+            app:contentInsetLeft="0dp"
+            app:contentInsetStart="0dp">
 
             <FrameLayout
                 android:id="@+id/header"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@color/colorPrimary">
-                <RelativeLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="55dp"
-                    android:orientation="horizontal">
-
-                <customfonts.TextViewSFProDisplayMedium
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:text="@string/app_name"
-                    android:gravity="center"
-                    android:textSize="20dp"
-                    android:textColor="@color/white"/>
-                </RelativeLayout>
+                android:background="@color/green">
 
                 <LinearLayout
                     android:id="@+id/llsearch"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:layout_marginTop="55dp"
                     android:layout_marginLeft="10dp"
+                    android:layout_marginTop="55dp"
                     android:layout_marginRight="10dp"
                     android:layout_marginBottom="10dp"
                     android:background="@drawable/button_round_1"
                     android:backgroundTint="@color/white"
+                    android:orientation="horizontal"
                     android:padding="10dp">
 
                     <ImageView
@@ -79,14 +66,29 @@
                         android:layout_weight="1"
                         android:background="@android:color/transparent"
                         android:hint="like name, address or amenities"
-                        android:textSize="14dp"
                         android:imeOptions="actionSearch"
                         android:maxLines="1"
-                        android:textColorHint="@color/gray"
+                        android:singleLine="true"
                         android:textColor="@color/black"
-                        android:singleLine="true"/>
+                        android:textColorHint="@color/gray"
+                        android:textSize="14dp" />
 
                 </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:orientation="horizontal">
+
+                    <customfonts.TextViewSFProDisplayMedium
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#B500FF38"
+                        android:gravity="center"
+                        android:text="@string/app_name"
+                        android:textColor="@color/white"
+                        android:textSize="20dp" />
+                </RelativeLayout>
 
             </FrameLayout>
         </android.support.v7.widget.Toolbar>

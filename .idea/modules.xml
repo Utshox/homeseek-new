@@ -7,6 +7,9 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/homeseek.iml" filepath="$PROJECT_DIR$/.idea/modules/homeseek.iml" group="homeseek" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/homeseek-app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/homeseek-app.iml" group="homeseek/app" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/httpclient/homeseek-httpclient.iml" filepath="$PROJECT_DIR$/.idea/modules/httpclient/homeseek-httpclient.iml" group="homeseek/httpclient" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/homeseekx.iml" filepath="$PROJECT_DIR$/.idea/modules/homeseekx.iml" group="homeseekx" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/homeseekx-app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/homeseekx-app.iml" group="homeseekx/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/httpclient/homeseekx-httpclient.iml" filepath="$PROJECT_DIR$/.idea/modules/httpclient/homeseekx-httpclient.iml" group="homeseekx/httpclient" />
       <module fileurl="file://$PROJECT_DIR$/httpclient/httpclient.iml" filepath="$PROJECT_DIR$/httpclient/httpclient.iml" group="goestate/httpclient" />
     </modules>
   </component>

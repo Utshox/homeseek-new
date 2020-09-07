@@ -13,7 +13,7 @@ import android.widget.TextView;
 import com.otacodes.goestate.Activity.AllPropByCityActivity;
 import com.otacodes.goestate.Models.CityModels;
 import com.otacodes.goestate.R;
-import com.otacodes.goestate.Utils.BannerAds;
+//import com.otacodes.goestate.Utils.BannerAds;
 import com.squareup.picasso.MemoryPolicy;
 import com.squareup.picasso.Picasso;
 
@@ -56,7 +56,7 @@ public class CityItem extends RecyclerView.Adapter<CityItem.ItemRowHolder> {
         holder.images.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                BannerAds.ShowInterstitialAds(mContext);
+//                BannerAds.ShowInterstitialAds(mContext);
                 Intent intent = new Intent(mContext, AllPropByCityActivity.class);
                 intent.putExtra("Id", singleItem.getCityId());
                 mContext.startActivity(intent);

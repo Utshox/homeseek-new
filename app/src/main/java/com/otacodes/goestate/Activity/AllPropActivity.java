@@ -41,7 +41,7 @@ import com.otacodes.goestate.Models.CategoryModels;
 import com.otacodes.goestate.Models.CityModels;
 import com.otacodes.goestate.Models.PropertyModels;
 import com.otacodes.goestate.R;
-import com.otacodes.goestate.Utils.BannerAds;
+//import com.otacodes.goestate.Utils.BannerAds;
 import com.otacodes.goestate.Utils.NetworkUtils;
 
 import org.json.JSONArray;
@@ -75,7 +75,7 @@ public class AllPropActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.fragment_recycle);
         LinearLayout mAdViewLayout = findViewById(R.id.adView);
-        BannerAds.ShowBannerAds(getApplicationContext(), mAdViewLayout);
+//        BannerAds.ShowBannerAds(getApplicationContext(), mAdViewLayout);
         bottom_sheet = findViewById(R.id.bottom_sheet);
         mBehavior = BottomSheetBehavior.from(bottom_sheet);
         listItem = new ArrayList<>();

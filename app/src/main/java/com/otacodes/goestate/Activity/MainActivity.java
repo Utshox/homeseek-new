@@ -35,7 +35,7 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.otacodes.goestate.Fragment.FavouriteFragment;
 import com.otacodes.goestate.Fragment.ProfileFragment;
-import com.otacodes.goestate.Utils.BannerAds;
+//import com.otacodes.goestate.Utils.BannerAds;
 import com.otacodes.goestate.Utils.BottomNavigationViewHelper;
 
 
@@ -110,7 +110,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         LinearLayout mAdViewLayout = findViewById(R.id.adView);
-        BannerAds.ShowBannerAds(getApplicationContext(), mAdViewLayout);
+//        BannerAds.ShowBannerAds(getApplicationContext(), mAdViewLayout);
         fragmentManager = getSupportFragmentManager();
         llsearch = findViewById(R.id.llsearch);
         baseApp = BaseApp.getInstance();
