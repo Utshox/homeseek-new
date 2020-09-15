@@ -6,7 +6,7 @@ android:layout_height="match_parent"
 xmlns:app="http://schemas.android.com/apk/res-auto"
 android:background="@color/light_white"
 android:id="@+id/register"
-tools:context=".Activity.RegisterActivity">
+tools:context="com.diudefense.homeseek.Activity.RegisterActivity">
 
 <RelativeLayout
     android:layout_width="match_parent"

@@ -4,7 +4,7 @@
     android:layout_height="wrap_content"
     android:fitsSystemWindows="false">
 
-    <com.otacodes.goestate.Utils.TouchImageView
+    <com.diudefense.homeseek.Utils.TouchImageView
         android:id="@+id/imgDisplay"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"

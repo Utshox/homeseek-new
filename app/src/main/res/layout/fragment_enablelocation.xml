@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/white"
-    tools:context=".Fragment.EnableLlocationFragment">
+    tools:context="com.diudefense.homeseek.Fragment.EnableLlocationFragment">
 
     <RelativeLayout
         android:layout_width="match_parent"

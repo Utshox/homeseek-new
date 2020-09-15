@@ -18,7 +18,7 @@ android {
     }
     compileSdkVersion 27
     defaultConfig {
-        applicationId "com.otacodes.goestate"
+        applicationId "com.diudefense.homeseek"
         manifestPlaceholders = [manifestApplicationId          : "${applicationId}",
                                 onesignal_app_id               : "a2c1244a-9daf-469e-adff-0bf279862765",
                                 onesignal_google_project_number: "REMOTE"]

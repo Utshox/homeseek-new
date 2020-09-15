@@ -4,7 +4,7 @@
     android:layout_height="120dp"
     android:gravity="center">
 
-    <com.otacodes.goestate.Utils.RoundCornersImageView
+    <com.diudefense.homeseek.Utils.RoundCornersImageView
         android:id="@+id/gifimage"
         android:layout_width="100dp"
         android:layout_height="60dp"

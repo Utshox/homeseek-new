@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.otacodes.goestate">
+    package="com.diudefense.homeseek">
 
     <uses-permission android:name="android.permission.CALL_PHONE" />
     <uses-permission android:name="android.permission.INTERNET" />
@@ -19,7 +19,7 @@
     <uses-permission android:name="com.android.vending.BILLING" />
 
     <application
-        android:name="com.otacodes.goestate.Constants.BaseApp"
+        android:name="com.diudefense.homeseek.Constants.BaseApp"
         android:allowBackup="true"
         android:hardwareAccelerated="true"
         android:icon="@mipmap/ic_launcher"
@@ -30,19 +30,21 @@
         android:theme="@style/AppTheme">
         <provider
             android:name="android.support.v4.content.FileProvider"
-            android:authorities="com.otacodes.goestate.fileprovider"
+            android:authorities="${applicationId}.fileprovider"
             android:exported="false"
-            android:grantUriPermissions="true">
+            android:grantUriPermissions="true"
+            tools:replace="android:authorities">
             <meta-data
                 android:name="android.support.FILE_PROVIDER_PATHS"
-                android:resource="@xml/file_paths" />
+                android:resource="@xml/file_paths"
+                tools:replace="android:resource" />
         </provider>
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/google_maps_key" />
         <activity
-            android:name="com.otacodes.goestate.Activity.SplashActivity"
+            android:name="com.diudefense.homeseek.Activity.SplashActivity"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -51,52 +53,52 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.otacodes.goestate.Activity.LoginFormActivity"
+            android:name="com.diudefense.homeseek.Activity.LoginFormActivity"
             android:screenOrientation="portrait"
             android:theme="@style/Login_phone_A"
             android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
         <activity
-            android:name="com.otacodes.goestate.Activity.RegisterActivity"
+            android:name="com.diudefense.homeseek.Activity.RegisterActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
         <activity
-            android:name="com.otacodes.goestate.Activity.AllPropByCatActivity"
+            android:name="com.diudefense.homeseek.Activity.AllPropByCatActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
         <activity
-            android:name="com.otacodes.goestate.Activity.AllPropActivity"
+            android:name="com.diudefense.homeseek.Activity.AllPropActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
         <activity
-            android:name="com.otacodes.goestate.Activity.AllPopularActivity"
+            android:name="com.diudefense.homeseek.Activity.AllPopularActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
         <activity
-            android:name="com.otacodes.goestate.Activity.AllPropByCityActivity"
+            android:name="com.diudefense.homeseek.Activity.AllPropByCityActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
         <activity
-            android:name="com.otacodes.goestate.Activity.SearchActivity"
+            android:name="com.diudefense.homeseek.Activity.SearchActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
         <activity
-            android:name="com.otacodes.goestate.Activity.MyPropertyActivity"
+            android:name="com.diudefense.homeseek.Activity.MyPropertyActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
         <activity
-            android:name="com.otacodes.goestate.Activity.PropertyDetailActivity"
+            android:name="com.diudefense.homeseek.Activity.PropertyDetailActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
         <activity
-            android:name="com.otacodes.goestate.Activity.FilterSearchActivity"
+            android:name="com.diudefense.homeseek.Activity.FilterSearchActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
         <activity
-            android:name="com.otacodes.goestate.Activity.PicklocationActivity"
+            android:name="com.diudefense.homeseek.Activity.PicklocationActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
         <activity
-            android:name="com.otacodes.goestate.Activity.MainActivity"
+            android:name="com.diudefense.homeseek.Activity.MainActivity"
             android:screenOrientation="portrait" />
 
         <meta-data
@@ -131,17 +133,17 @@
             android:name="com.google.firebase.messaging.default_notification_color"
             android:resource="@color/coloraccent" />
 
-        <service android:name="com.otacodes.goestate.Utils.NotificationReceive">
+        <service android:name="com.diudefense.homeseek.Utils.NotificationReceive">
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />
             </intent-filter>
         </service>
 
-        <activity android:name="com.otacodes.goestate.Activity.AboutActivity" />
-        <activity android:name="com.otacodes.goestate.Activity.PrivacyActivity" />
-        <activity android:name="com.otacodes.goestate.Activity.BlockActivity" />
-        <activity android:name="com.otacodes.goestate.Activity.FullImageActivity" />
-        <activity android:name="com.otacodes.goestate.Activity.AddPropertyActivity"></activity>
+        <activity android:name="com.diudefense.homeseek.Activity.AboutActivity" />
+        <activity android:name="com.diudefense.homeseek.Activity.PrivacyActivity" />
+        <activity android:name="com.diudefense.homeseek.Activity.BlockActivity" />
+        <activity android:name="com.diudefense.homeseek.Activity.FullImageActivity" />
+        <activity android:name="com.diudefense.homeseek.Activity.AddPropertyActivity"></activity>
     </application>
 
 </manifest>

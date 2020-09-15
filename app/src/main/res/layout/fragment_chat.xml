@@ -8,7 +8,7 @@
     android:background="@color/white"
     android:clickable="true"
     android:id="@+id/Chat_F"
-    tools:context=".Fragment.ChatFragment">
+    tools:context="com.diudefense.homeseek.Fragment.ChatFragment">
 
     <android.support.v7.widget.Toolbar
         android:id="@+id/toolbar"
