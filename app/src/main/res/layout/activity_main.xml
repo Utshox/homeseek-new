@@ -109,13 +109,13 @@
             android:id="@+id/navigation"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_alignWithParentIfMissing="true"
             android:layout_alignParentBottom="true"
-            app:menu="@menu/navigation"
             android:background="@color/white"
-            app:itemIconTint="@color/selector"
-            app:itemTextColor="@color/selector"
             android:theme="@style/TextRegular"
-            android:layout_alignWithParentIfMissing="true"/>
+            app:itemIconTint="#B500FF38"
+            app:itemTextColor="@color/lightblack"
+            app:menu="@menu/navigation" />
 
     </RelativeLayout>
 </android.support.v4.widget.DrawerLayout>

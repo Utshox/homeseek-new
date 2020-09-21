@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.otacodes.goestate", appContext.getPackageName());
+        assertEquals("com.diudefense.homeseek", appContext.getPackageName());
     }
 }
