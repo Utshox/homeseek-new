@@ -4,9 +4,6 @@ import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
 
-/**
- * Created by ander on 4/07/16.
- */
 public class ParameterBag extends ArrayList<Parameter> {
 
     private static final String TAG = "ParameterBag";

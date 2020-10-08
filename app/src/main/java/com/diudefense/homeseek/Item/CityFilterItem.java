@@ -17,10 +17,6 @@ import com.diudefense.homeseek.R;
 
 import java.util.ArrayList;
 
-/**
- * Created by otacodes on 4/4/2019.
- */
-
 public class CityFilterItem extends RecyclerView.Adapter<CityFilterItem.ItemRowHolder> {
 
     public ArrayList<CityModels> dataList;

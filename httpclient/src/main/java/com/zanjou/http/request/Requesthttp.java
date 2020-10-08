@@ -1,6 +1,7 @@
 package com.zanjou.http.request;
 
 
+import android.annotation.SuppressLint;
 import android.net.Uri;
 import android.os.AsyncTask;
 import android.util.Log;
@@ -33,9 +34,6 @@ import static com.zanjou.http.debug.Logger.DEBUG;
 import static com.zanjou.http.debug.Logger.ERROR;
 import static com.zanjou.http.debug.Logger.INFO;
 
-/**
- * Created by ander on 4/07/16.
- */
 public class Requesthttp {
 
     private static final String TAG = "Requesthttp";
@@ -210,6 +208,7 @@ public class Requesthttp {
         return this;
     }
 
+    @SuppressLint("StaticFieldLeak")
     public void execute() {
         runner = new ProgressTask() {
 
@@ -223,6 +222,7 @@ public class Requesthttp {
                 }
             }
 
+            @SuppressLint("StaticFieldLeak")
             @Override
             protected void onPostExecute(Void aVoid) {
                 super.onPostExecute(aVoid);
@@ -230,6 +230,7 @@ public class Requesthttp {
                     requestStateListener.onFinish();
                 }
             }
+
 
             @Override
             protected Void doInBackground(Void... params) {
@@ -276,6 +277,7 @@ public class Requesthttp {
                             data = "{\"error\":\"No response\"}".getBytes();
                         }
                     }
+
 
                     String response = new String(data);
 

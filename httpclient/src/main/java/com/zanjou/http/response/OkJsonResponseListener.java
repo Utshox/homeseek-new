@@ -5,9 +5,6 @@ import android.util.Log;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-/**
- * Created by Andersson G. Acosta on 10/01/17.
- */
 public abstract class OkJsonResponseListener extends JsonResponseListener {
 
     private static final String TAG = "OkResponseListener";

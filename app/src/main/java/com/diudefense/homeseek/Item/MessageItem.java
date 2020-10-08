@@ -22,9 +22,6 @@ import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Date;
 
-/**
- * Created by otacodes on 11/20/2019.
- */
 
 public class MessageItem extends RecyclerView.Adapter<MessageItem.CustomViewHolder >  implements Filterable{
     public Context context;

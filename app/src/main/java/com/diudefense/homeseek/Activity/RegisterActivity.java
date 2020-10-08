@@ -190,7 +190,7 @@ public class RegisterActivity extends AppCompatActivity {
 
                 CallSignup(phone_no,
                         fullName.getText().toString(),
-                        taskSnapshot.getDownloadUrl().toString());
+                        taskSnapshot.getMetadata().getReference().getDownloadUrl().toString());
 
             }});
 

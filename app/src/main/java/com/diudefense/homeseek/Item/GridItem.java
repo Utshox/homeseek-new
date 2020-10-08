@@ -24,9 +24,6 @@ import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
 
-/**
- * Created by otacodes on 3/24/2019.
- */
 
 public class GridItem extends RecyclerView.Adapter<GridItem.ItemRowHolder> {
 
@@ -64,6 +61,9 @@ public class GridItem extends RecyclerView.Adapter<GridItem.ItemRowHolder> {
                 .memoryPolicy(MemoryPolicy.NO_CACHE, MemoryPolicy.NO_STORE)
                 .placeholder(R.drawable.image_placeholder)
                 .into(holder.images);
+
+
+
 
         if (databaseHelper.getFavouriteById(singleItem.getPropid())) {
             holder.favourite.setColorFilter(mContext.getResources().getColor(R.color.colorPrimary));

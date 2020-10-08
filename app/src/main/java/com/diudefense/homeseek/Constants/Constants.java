@@ -67,7 +67,7 @@ public class Constants {
             new SimpleDateFormat("dd-MM-yyyy HH:mm:ssZZ", Locale.ENGLISH);
 
 
-        public static final String FCM_KEY = "AIzaSyB3fRZgAkMJgOCvANhsTZeE5nZOBBLhpUQ";
+        public static final String FCM_KEY = "AIzaSyB5RY_YGm3uwDXVQ7ZCYd7PmeDNe_l5OtQ";
         public static final LatLngBounds BOUNDS = new LatLngBounds(
                 new LatLng(-7.216001, 0), // southwest
                 new LatLng(0, 107.903316)); // northeast

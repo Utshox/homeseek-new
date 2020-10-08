@@ -28,9 +28,6 @@ import com.google.android.gms.maps.model.LatLngBounds;
 import java.util.ArrayList;
 import java.util.concurrent.TimeUnit;
 
-/**
- * Created by Balqis Studio on 12/4/2016.
- */
 
 public class PlaceAutoCompleteItem extends ArrayAdapter<AutocompletePrediction> implements Filterable {
 

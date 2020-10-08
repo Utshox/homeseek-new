@@ -30,10 +30,6 @@ import java.util.Date;
 import java.util.HashMap;
 import java.util.Locale;
 
-/**
- * Created by otacodes on 12/5/2018.
- */
-
 
 public class SendAudio {
 
@@ -195,7 +191,7 @@ public class SendAudio {
                 message_user_map.put("chat_id",key);
                 message_user_map.put("text", "");
                 message_user_map.put("type","audio");
-                message_user_map.put("pic_url",taskSnapshot.getDownloadUrl().toString());
+                message_user_map.put("pic_url",taskSnapshot.getMetadata().getReference().getDownloadUrl().toString());
                 message_user_map.put("status", "0");
                 message_user_map.put("time", "");
                 message_user_map.put("sender_name", MainActivity.user_name);

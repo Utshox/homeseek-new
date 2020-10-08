@@ -21,9 +21,6 @@ import com.squareup.picasso.Picasso;
 import java.util.ArrayList;
 import java.util.Random;
 
-/**
- * Created by otacodes on 3/24/2019.
- */
 
 public class CategoryItem extends RecyclerView.Adapter<CategoryItem.ItemRowHolder> {
 

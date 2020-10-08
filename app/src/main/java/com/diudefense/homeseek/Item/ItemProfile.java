@@ -17,10 +17,6 @@ import java.util.ArrayList;
 
 import de.hdodenhof.circleimageview.CircleImageView;
 
-/**
- * Created by otacodes on 11/16/2018.
- */
-
 public class ItemProfile extends DragAdapter {
     Context context;
 

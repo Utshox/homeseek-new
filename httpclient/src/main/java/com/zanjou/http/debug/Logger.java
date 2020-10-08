@@ -2,9 +2,7 @@ package com.zanjou.http.debug;
 
 import android.util.Log;
 
-/**
- * Created by Andersson G. Acosta on 19/01/17.
- */
+
 public class Logger {
 
     private static final String TAG = "Log";

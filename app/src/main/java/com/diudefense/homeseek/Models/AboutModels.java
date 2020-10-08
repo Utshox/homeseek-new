@@ -1,8 +1,5 @@
 package com.diudefense.homeseek.Models;
 
-/**
- * Created by balqisstudio on 3/3/2019.
- */
 
 public class AboutModels {
     private String appName;

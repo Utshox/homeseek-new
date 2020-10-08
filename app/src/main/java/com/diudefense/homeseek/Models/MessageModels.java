@@ -1,8 +1,5 @@
 package com.diudefense.homeseek.Models;
 
-/**
- * Created by otacodes on 9/11/2018.
- */
 
 public class MessageModels {
 

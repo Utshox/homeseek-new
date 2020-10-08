@@ -211,7 +211,7 @@ public class EditProfileFragment extends Fragment {
         filelocation.putBytes(imageByteArray).addOnSuccessListener(new OnSuccessListener<UploadTask.TaskSnapshot>() {
             @Override
             public void onSuccess(UploadTask.TaskSnapshot taskSnapshot) {
-                String url=taskSnapshot.getDownloadUrl().toString();
+                String url=taskSnapshot.getMetadata().getReference().getDownloadUrl().toString();
                 uploadLink(url);
                 iosDialog.cancel();
 

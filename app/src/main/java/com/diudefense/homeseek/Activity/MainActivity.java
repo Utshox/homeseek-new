@@ -34,7 +34,6 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.diudefense.homeseek.Fragment.FavouriteFragment;
 import com.diudefense.homeseek.Fragment.ProfileFragment;
-//import com.otacodes.goestate.Utils.BannerAds;
 import com.diudefense.homeseek.Utils.BottomNavigationViewHelper;
 
 
@@ -156,6 +155,8 @@ public class MainActivity extends AppCompatActivity {
             e.printStackTrace();
         }
         Constants.versionname=packageInfo.versionName;
+
+
 
 
 

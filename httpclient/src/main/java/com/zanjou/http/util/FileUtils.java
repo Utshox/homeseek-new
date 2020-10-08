@@ -15,9 +15,6 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.net.URISyntaxException;
 
-/**
- * Created by ander on 13/06/16.
- */
 public class FileUtils {
 
     private static final String TAG = "FileUtils";

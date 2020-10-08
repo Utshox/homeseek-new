@@ -5,9 +5,6 @@ import android.util.Log;
 import org.jsoup.nodes.Document;
 
 
-/**
- * Created by Andersson G. Acosta on 10/01/17.
- */
 public abstract class OkXmlResponseListener extends XmlResponseListener {
 
     private static final String TAG = "OkResponseListener";

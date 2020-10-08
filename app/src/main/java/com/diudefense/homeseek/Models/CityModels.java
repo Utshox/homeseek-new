@@ -1,8 +1,6 @@
 package com.diudefense.homeseek.Models;
 
-/**
- * Created by balqisstudio on 3/24/2019.
- */
+
 
 public class CityModels {
 

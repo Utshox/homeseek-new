@@ -7,9 +7,6 @@ import java.io.IOException;
 import java.io.Serializable;
 import java.net.URLConnection;
 
-/**
- * Created by ander on 4/07/16.
- */
 public class Parameter implements Serializable {
 
     private static final String TAG = "Parameters";

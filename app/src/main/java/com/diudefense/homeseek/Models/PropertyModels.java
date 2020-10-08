@@ -1,9 +1,5 @@
 package com.diudefense.homeseek.Models;
 
-/**
- * Created by balqisstudio on 3/23/2019.
- */
-
 public class PropertyModels {
 
     private String propid;

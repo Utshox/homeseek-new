@@ -15,9 +15,6 @@ import com.diudefense.homeseek.R;
 import java.util.ArrayList;
 import java.util.Random;
 
-/**
- * Created by otacodes on 3/24/2019.
- */
 public class AmenitiesItem extends RecyclerView.Adapter<AmenitiesItem.ItemRowHolder> {
 
     private ArrayList<String> dataList;

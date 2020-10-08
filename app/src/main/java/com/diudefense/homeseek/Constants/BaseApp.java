@@ -10,14 +10,12 @@ import com.google.firebase.FirebaseApp;
 import com.google.firebase.database.FirebaseDatabase;
 import com.onesignal.OneSignal;
 
-/**
- * Created by otacodes on 12/12/2018.
- */
+
 
 public class BaseApp extends Application {
     private static BaseApp mInstance;
     public SharedPreferences preferences;
-    public String prefName = "GoEstate";
+    public String prefName = "Homeseek";
     public BaseApp() {
         mInstance = this;
     }

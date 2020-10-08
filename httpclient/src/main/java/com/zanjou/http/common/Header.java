@@ -2,9 +2,7 @@ package com.zanjou.http.common;
 
 import java.io.Serializable;
 
-/**
- * Created by Andersson G. Acosta on 3/01/17.
- */
+
 public class Header implements Serializable {
 
     private static final String TAG = "Header";

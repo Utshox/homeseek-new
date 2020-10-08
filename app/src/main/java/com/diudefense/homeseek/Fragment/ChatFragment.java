@@ -760,7 +760,7 @@ public class ChatFragment extends Fragment {
                 message_user_map.put("chat_id",key);
                 message_user_map.put("text", "");
                 message_user_map.put("type","image");
-                message_user_map.put("pic_url",taskSnapshot.getDownloadUrl().toString());
+                message_user_map.put("pic_url",taskSnapshot.getMetadata().getReference().getDownloadUrl().toString());
                 message_user_map.put("status", "0");
                 message_user_map.put("time", "");
                 message_user_map.put("sender_name", MainActivity.user_name);
@@ -1261,7 +1261,7 @@ public class ChatFragment extends Fragment {
 
             }
             if (photoFile != null) {
-                Uri photoURI = FileProvider.getUriForFile(context.getApplicationContext(), "com.otacodes.goestate.fileprovider", photoFile);
+                Uri photoURI = FileProvider.getUriForFile(context.getApplicationContext(), "com.diudefense.homeseek.fileprovider", photoFile);
                 pictureIntent.putExtra(MediaStore.EXTRA_OUTPUT, photoURI);
                 startActivityForResult(pictureIntent, 1);
             }

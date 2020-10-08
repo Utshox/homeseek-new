@@ -26,7 +26,7 @@
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
             android:layout_weight="1"
-            android:background="#B500FF38"
+            android:background="#ff4d88"
             android:elevation="5dp"
             app:contentInsetLeft="0dp"
             app:contentInsetStart="0dp">
@@ -35,7 +35,7 @@
                 android:id="@+id/header"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@color/green">
+                android:background="#ff4d88">
 
                 <LinearLayout
                     android:id="@+id/llsearch"
@@ -83,7 +83,7 @@
                     <customfonts.TextViewSFProDisplayMedium
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:background="#B500FF38"
+                        android:background="#ff4d88"
                         android:gravity="center"
                         android:text="@string/app_name"
                         android:textColor="@color/white"
@@ -113,7 +113,7 @@
             android:layout_alignParentBottom="true"
             android:background="@color/white"
             android:theme="@style/TextRegular"
-            app:itemIconTint="#B500FF38"
+            app:itemIconTint="#ff4d88"
             app:itemTextColor="@color/lightblack"
             app:menu="@menu/navigation" />
 

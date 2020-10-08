@@ -6,9 +6,6 @@ import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 
 
-/**
- * Created by Andersson G. Acosta on 3/01/17.
- */
 public abstract class XmlResponseListener extends BaseResponseListener {
 
     private static final String TAG = "XmlResponseListener";

@@ -13,9 +13,6 @@ import com.diudefense.homeseek.Constants.Constants;
 
 import java.util.ArrayList;
 
-/**
- * Created by otacodes on 12/20/2018.
- */
 
 public class GifItem extends RecyclerView.Adapter<GifItem.CustomViewHolder >{
     public Context context;

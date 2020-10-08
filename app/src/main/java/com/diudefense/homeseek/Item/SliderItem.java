@@ -20,10 +20,6 @@ import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
 
-/**
- * Created by otacodes on 3/23/2019.
- */
-
 public class SliderItem extends PagerAdapter {
 
     private LayoutInflater inflater;

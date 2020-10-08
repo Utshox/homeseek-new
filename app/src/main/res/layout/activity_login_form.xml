@@ -108,7 +108,7 @@
                 android:layout_width="80dp"
                 android:layout_height="wrap_content"
                 android:textSize="15dp"
-                android:text="+1"
+                android:text="+880"
                 android:textAlignment="center"
                 android:textColor="@color/black"
                 android:layout_centerVertical="true"/>

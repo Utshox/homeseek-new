@@ -8,10 +8,6 @@ import android.view.ViewGroup;
 import android.widget.ListAdapter;
 import android.widget.SpinnerAdapter;
 
-/**
- * Created by balqisstudio on 4/6/2019.
- */
-
 public class NothingSelectedSpinner implements SpinnerAdapter, ListAdapter {
 
     protected static final int EXTRA = 1;

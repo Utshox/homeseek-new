@@ -32,8 +32,8 @@
             android:id="@+id/profileimage"
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:src="@mipmap/ic_launcher"
-            android:layout_centerHorizontal="true"/>
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/logon" />
 
         <LinearLayout
             android:layout_width="match_parent"

@@ -31,10 +31,6 @@ import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
 
-/**
- * Created by otacodes on 12/22/2018.
- */
-
 public class NotificationReceive extends FirebaseMessagingService {
 
     String  pic;

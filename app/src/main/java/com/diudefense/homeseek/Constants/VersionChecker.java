@@ -13,9 +13,6 @@ import org.jsoup.Jsoup;
 
 import java.io.IOException;
 
-/**
- * Created by otacodes on 12/4/2018.
- */
 
 // this class will get the latest version of app from playtore if the app is publish into playstore
 

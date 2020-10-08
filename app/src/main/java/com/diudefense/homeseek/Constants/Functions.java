@@ -15,9 +15,6 @@ import java.util.Calendar;
 import java.util.Date;
 import java.util.Locale;
 
-/**
- * Created by otacodes on 10/20/2018.
- */
 
 public class Functions {
 

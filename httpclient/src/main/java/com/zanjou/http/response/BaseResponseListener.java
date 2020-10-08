@@ -1,8 +1,6 @@
 package com.zanjou.http.response;
 
-/**
- * Created by ander on 4/07/16.
- */
+
 public abstract class BaseResponseListener implements ResponseListener {
 
     private static final String TAG = "BaseResponseListener";

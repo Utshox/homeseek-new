@@ -16,9 +16,6 @@ import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
 
-/**
- * Created by otacodes on 3/24/2019.
- */
 
 public class GalleryItem extends RecyclerView.Adapter<GalleryItem.ItemRowHolder> {
 

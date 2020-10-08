@@ -29,10 +29,6 @@ import java.util.Date;
 import java.util.List;
 
 
-/**
- * Created by otacodes on 12/12/2018.
- */
-
 public class ItemChat extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
     private List<ChatModels> mDataSet;
     String myID;

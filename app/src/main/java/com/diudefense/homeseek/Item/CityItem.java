@@ -19,10 +19,6 @@ import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
 
-/**
- * Created by otacodes on 3/24/2019.
- */
-
 public class CityItem extends RecyclerView.Adapter<CityItem.ItemRowHolder> {
 
     private ArrayList<CityModels> dataList;
@@ -63,6 +59,7 @@ public class CityItem extends RecyclerView.Adapter<CityItem.ItemRowHolder> {
 
             }
         });
+
     }
 
     @Override

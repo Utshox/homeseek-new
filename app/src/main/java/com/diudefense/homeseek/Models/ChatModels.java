@@ -1,8 +1,5 @@
 package com.diudefense.homeseek.Models;
 
-/**
- * Created by otacodes on 12/20/2018.
- */
 
 public class ChatModels {
   String receiver_id,sender_id,chat_id,sender_name,text,pic_url,status,time,timestamp,type;

@@ -3,10 +3,6 @@ package com.diudefense.homeseek.Models;
 import java.io.Serializable;
 import java.util.ArrayList;
 
-/**
- * Created by otacodes on 10/24/2018.
- */
-
 
 public class NearbyModels implements Serializable {
 
