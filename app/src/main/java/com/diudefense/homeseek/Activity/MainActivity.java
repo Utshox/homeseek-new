@@ -198,7 +198,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void clickDone() {
         new AlertDialog.Builder(this)
-                .setIcon(R.mipmap.ic_launcher)
+                .setIcon(R.drawable.logon)
                 .setTitle(getString(R.string.app_name))
                 .setMessage("Are you sure you want to exit?")
                 .setPositiveButton("YES!", new DialogInterface.OnClickListener() {
