@@ -6,14 +6,15 @@ import android.content.SharedPreferences;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 import android.os.Bundle;
-import android.support.annotation.NonNull;
-import android.support.design.widget.BottomNavigationView;
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentTransaction;
-import android.support.v7.app.AlertDialog;
-import android.support.v7.app.AppCompatActivity;
+import androidx.annotation.NonNull;
+import com.google.android.material.bottomnavigation.BottomNavigationView;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentTransaction;
+import androidx.appcompat.app.AlertDialog;
+import androidx.appcompat.app.AppCompatActivity;
 import android.text.TextUtils;
+import android.util.Log;
 import android.view.KeyEvent;
 import android.view.MenuItem;
 import android.view.View;
@@ -22,7 +23,7 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.google.firebase.iid.FirebaseInstanceId;
+import com.google.firebase.messaging.FirebaseMessaging;
 import com.diudefense.homeseek.Constants.BaseApp;
 import com.diudefense.homeseek.Constants.Constants;
 import com.diudefense.homeseek.Fragment.HomeFragment;
@@ -124,7 +125,18 @@ public class MainActivity extends AppCompatActivity {
         user_name = sharedPreferences.getString(Constants.f_name, "") + " " + sharedPreferences.getString(Constants.l_name, "");
         image =sharedPreferences.getString(Constants.u_pic,"null");
         image1 =sharedPreferences.getString("image1","null");
-        token=sharedPreferences.getString(Constants.device_token, FirebaseInstanceId.getInstance().getToken());
+        // Get Firebase Messaging token using modern API
+        FirebaseMessaging.getInstance().getToken()
+                .addOnCompleteListener(task -> {
+                    if (!task.isSuccessful()) {
+                        Log.w("MainActivity", "Fetching FCM registration token failed", task.getException());
+                        return;
+                    }
+                    // Get new FCM registration token
+                    String fcmToken = task.getResult();
+                    token = sharedPreferences.getString(Constants.device_token, fcmToken);
+                    Log.d("MainActivity", "FCM Registration Token: " + fcmToken);
+                });
         rootref= FirebaseDatabase.getInstance().getReference();
 
         search = findViewById(R.id.search);
