@@ -21,9 +21,9 @@ HomeSeek is a comprehensive home and property search application for Android. Th
 - **Platform**: Android (API 21+ / Android 5.0+)
 - **Language**: Java 8
 - **Build System**: Gradle 8.5
-- **Android Gradle Plugin**: 8.1.4
-- **Compile SDK**: Android 14 (API 34)
-- **Target SDK**: Android 14 (API 34)
+- **Android Gradle Plugin**: 7.4.2
+- **Compile SDK**: Android 13 (API 33)
+- **Target SDK**: Android 13 (API 33)
 - **UI Framework**: AndroidX + Material Design Components
 
 ### Key Dependencies
@@ -132,8 +132,8 @@ homeseek-new/
 - **MultiDex**: Enabled for dependency management
 
 ### Android Configuration
-- **Compile SDK**: 34 (Android 14)
-- **Target SDK**: 34 (Android 14)
+- **Compile SDK**: 33 (Android 13)
+- **Target SDK**: 33 (Android 13)
 - **Min SDK**: 21 (Android 5.0)
 - **Version Code**: 1
 - **Version Name**: 1.0
@@ -145,11 +145,14 @@ homeseek-new/
 This project has been updated from a 5-year-old codebase to modern Android development standards:
 
 - **Gradle**: Upgraded from 4.6 to 8.5
-- **Android Gradle Plugin**: Upgraded from 3.1.2 to 8.1.4
+- **Android Gradle Plugin**: Upgraded from 3.1.2 to 7.4.2 
 - **Dependencies**: Migrated from Support Libraries to AndroidX
 - **Repositories**: Replaced deprecated jcenter with mavenCentral
-- **SDK Versions**: Updated from API 27 to API 34
+- **SDK Versions**: Updated from API 27 to API 33
 - **Java**: Ensured compatibility with Java 8+ features
+- **Firebase**: Updated to use modern Firebase BOM for version management
+- **Google Play Services**: Updated to latest stable versions
+- **Testing**: Migrated to AndroidX test libraries
 
 ### Known Dependencies
 
